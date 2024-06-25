@@ -10,7 +10,9 @@ import Edit from "./views/table/Edit";
 
 function App() {
   const token = localStorage.getItem("token");
-  const [auth, setAuth] = useState(token !== "" ? true : false);
+  console.log(token);
+  
+  const [auth, setAuth] = useState(token ? true : false);
 
   return (
     <>

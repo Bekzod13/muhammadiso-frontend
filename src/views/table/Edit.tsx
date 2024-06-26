@@ -63,7 +63,7 @@ const Edit = () => {
     }
     return <div className="flex items-center justify-center h-[100vh]">
     <form className="flex max-w-md flex-col gap-4 border px-12 py-6 rounded-md w-[400px]" onSubmit={e => udpate(e)}>
-        <p className="text-xl font-bold text-center">Create</p>
+        <p className="text-xl font-bold text-center">Edit</p>
         <div>
             <div className="mb-2 block">
                 <Label htmlFor="Firstname" value="Firstname" />
@@ -111,7 +111,7 @@ const Edit = () => {
             </> 
         }
       
-        <Button type="submit">Login</Button>
+        <Button type="submit">Update</Button>
     </form>
 </div> 
 }
